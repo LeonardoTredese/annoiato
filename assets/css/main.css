@@ -40,6 +40,7 @@ a {
 }
 
 a:hover {
+  background-color: #484848;
   color: #f3f3f3;
 }
 
@@ -60,6 +61,10 @@ em {
 #article {
   padding: 0 0 5em 0;
   display: block;
+}
+
+#bio {
+  display: inline-block;
 }
 
 .heading {
