@@ -64,7 +64,7 @@ em {
 }
 
 #bio {
-  display: inline-block;
+  display: inline-flex;
 }
 
 .heading {
@@ -100,11 +100,29 @@ em {
 }
 
 .inner {
-  margin: 0 4em 0 4em;
+  margin: 0 4em 0 2em;
   text-align: justify;
 }
 
 .inner > h2{
+  text-align: center;
+}
+
+.innerLeft {
+  margin: 0 4em 0 2em;
+  text-align: justify;
+}
+
+.innerLeft > h2{
+  text-align: center;
+}
+
+.innerRight {
+  margin: 0 2em 0 4em;
+  text-align: justify;
+}
+
+.innerRight > h2{
   text-align: center;
 }
 
