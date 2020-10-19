@@ -13,6 +13,11 @@ body {
   color: 	#242424;
 }
 
+#nav {
+  margin: 0 0 0 0;
+  padding: 0 4em 4em 0;
+}
+
 h1 {
   font-size: 5pc;
 	font-weight: 700;
