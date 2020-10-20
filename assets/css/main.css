@@ -15,7 +15,7 @@ body {
 
 nav {
   margin: 0 4em 0 4em;
-  padding: 0 0 0 0;
+  padding: 0 0 1em 0;
   border-style: none none solid none;
   border-bottom-width: thin;
   border-color: #242424;
@@ -23,38 +23,43 @@ nav {
 
 h1 {
   font-size: 4em;
-	font-weight: 700;
-	line-height: 1.3;
-	margin: 0.5em 0 0 0;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 0.5em auto 0 auto;
 }
 
 ul {
-    list-style-type: none;
-    font-weight: bold;
-    padding: 0 2em 0 2em;
+  list-style-type: none;
+  font-weight: bold;
+  padding: 0;
 }
 
-ul li {
+ul > li {
   display: inline;
   color: #484848;
+  margin: 0 auto;
 }
 
-a {
+a, a:visited {
+  padding: 0.7em;
   color: #484848;
 }
 
-a:hover {
+a:hover, a:active{
   background-color: #484848;
   color: #f3f3f3;
 }
 
-a:clicked, a:visited {
-  color: #484848;
-}
 
 em {
   font-weight: bold;
   font-size: 1.5pc;
+}
+
+#current {
+  padding: 0.7em;
+  border-left: solid 1px  #484848;
+  border-right: solid 1px  #484848;
 }
 
 #content {
@@ -86,6 +91,7 @@ article {
 
 .text {
   text-align: justify;
+  padding: 0 0 3em 0;
 }
 
 .foot {
@@ -137,6 +143,11 @@ small {
 
 .author {
     font-weight: bold;
+}
+
+.tags {
+    margin: 0 4em 0 4em;
+    padding: 0 0 1em 0;
 }
 
 @media screen and (max-width: 768px) {
