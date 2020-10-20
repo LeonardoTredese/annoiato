@@ -10,7 +10,7 @@ body {
   margin: 0 0 0 0;
   text-align: center;
   background-color: #fcfcfc;
-  color: 	#242424;
+  color: #242424;
 }
 
 #nav {
@@ -33,11 +33,11 @@ ul {
 
 ul li {
   display: inline;
-  color: 	#484848;
+  color: #484848;
 }
 
 a {
-  color: 	#484848;
+  color: #484848;
 }
 
 a:hover {
@@ -46,7 +46,7 @@ a:hover {
 }
 
 a:clicked, a:visited {
-  color: 	#484848;
+  color: #484848;
 }
 
 em {
@@ -65,7 +65,7 @@ em {
 }
 
 #bio {
-  display: inline
+  display: inline;
 }
 
 .heading {
