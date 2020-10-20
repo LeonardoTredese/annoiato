@@ -13,6 +13,10 @@ body {
   color: #242424;
 }
 
+header {
+    margin: auto;
+}
+
 nav {
   margin: 0 4em 0 4em;
   padding: 0 0 1em 0;
@@ -35,13 +39,14 @@ ul {
 }
 
 ul > li {
-  display: inline;
+  display: -webkit-inline-flex;
   color: #484848;
-  margin: 0 auto;
+  padding: 0.5em 0.5em 0em 0.5em;
+  margin: 0 0 0.2em 0;
 }
 
 a, a:visited {
-  padding: 0.7em;
+  padding: 0em;
   color: #484848;
 }
 
@@ -56,8 +61,7 @@ em {
   font-size: 1.5pc;
 }
 
-#current {
-  padding: 0.7em;
+.current {
   border-left: solid 1px  #484848;
   border-right: solid 1px  #484848;
 }
@@ -72,68 +76,67 @@ article {
   display: block;
 }
 
-#bio {
-  display: inline;
-}
-
-.heading {
-  font-weight: bold;
-  font-size: 2.5pc;
-  text-align: justify;
-
-}
-
-.subheading {
-  color: #6c6c6c;
-  font-size: 2pc;
-  text-align: justify;
-}
-
-.text {
-  text-align: justify;
-  padding: 0 0 3em 0;
-}
-
-.foot {
-  text-align: right;
-}
-
-#pageFooter {
+footer {
   margin: 0 0 0 0;
   padding: 2em 2em 8em 2em;
   background-color:	#f3f3f3;
 }
+#bio {
+  display: inline;
+}
+
+article > header {
+    text-align: left;
+}
+
+article h2 {
+    font-weight: bold;
+    font-size: 2.2em;
+}
+
+article > a {
+    text-align: right;
+}
+
+article h3 {
+    color: #6c6c6c;
+    font-size: 2pc;
+    text-align: justify;
+}
+
+article h3 {}
+
+.text {
+  text-align: justify;
+  padding: 0 0 2em 0;
+}
 
 .wrapper {
   display: -webkit-inline-flex;
-  padding: 0 0 0 0;
+  padding: 0 4em 0 4em;
 }
 
 .inner {
-  margin: 0 4em 0 2em;
+  margin-right: 2em;
+  margin-left: 2em;
   text-align: justify;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 0 0 2em 0;
 }
 
-.inner > h2{
-  text-align: center;
+#bio h2 {
+    text-align: center;
 }
 
-.innerLeft {
-  margin: 0 2em 0 2em;
-  text-align: justify;
+footer aside {
+    margin: 0 2em 0 2em;
+    padding: 0 0 2em 0;
+    text-align: justify;
 }
 
-.innerLeft > h2{
-  text-align: center;
-}
-
-.innerRight {
-  margin: 0 2em 0 2em;
-  text-align: justify;
-}
-
-.innerRight > h2{
-  text-align: center;
+aside h2 {
+    text-align: center;
 }
 
 small {
@@ -150,8 +153,32 @@ small {
     padding: 0 0 1em 0;
 }
 
+article > footer {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    text-align: right;
+    background-color: #fcfcfc;
+}
+
+.cropper {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: auto;
+}
+
+img {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+
+
 @media screen and (max-width: 768px) {
-    
+
     #content {
       margin: 0 0 0 0;
       padding: 2em 2em 4em 2em;
