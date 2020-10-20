@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
-
+/*Note: The values "flex" and "inline-flex" requires the -webkit- prefix to work in Safari.*/
 html {
   margin: 0 0 0 0;
   padding: 0 0 0 0;
@@ -28,6 +28,7 @@ h1 {
 ul {
     list-style-type: none;
     font-weight: bold;
+    padding: 0 2em 0 2em;
 }
 
 ul li {
@@ -55,7 +56,7 @@ em {
 
 #content {
   margin: 0 0 0 0;
-  padding: 2em 4em 4em 4em;
+  padding: 2em 8em 4em 8em;
 }
 
 #article {
@@ -64,7 +65,7 @@ em {
 }
 
 #bio {
-  display: inline;
+  display: inline
 }
 
 .heading {
@@ -109,7 +110,7 @@ em {
 }
 
 .innerLeft {
-  margin: 0 4em 0 2em;
+  margin: 0 2em 0 2em;
   text-align: justify;
 }
 
@@ -118,7 +119,7 @@ em {
 }
 
 .innerRight {
-  margin: 0 2em 0 4em;
+  margin: 0 2em 0 2em;
   text-align: justify;
 }
 
@@ -129,4 +130,25 @@ em {
 small {
   font-size: 1pc;
   color:	#6c6c6c;
+}
+
+.author {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    #content {
+      margin: 0 0 0 0;
+      padding: 2em 2em 4em 2em;
+    }
+    #bio {
+        display: block;
+    }
+    .wrapper {
+        padding: 0 0 0 0;
+        display:block;
+    }
+    .inner {
+        display: block;
+    }
 }
