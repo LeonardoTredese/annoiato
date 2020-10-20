@@ -58,8 +58,8 @@ em {
 
 #current {
   padding: 0.7em;
-  border-left: solid 1px  #484848; 
-  border-right: solid 1px  #484848; 
+  border-left: solid 1px  #484848;
+  border-right: solid 1px  #484848;
 }
 
 #content {
@@ -67,7 +67,7 @@ em {
   padding: 2em 8em 4em 8em;
 }
 
-#article {
+.article {
   padding: 0 0 5em 0;
   display: block;
 }
@@ -91,9 +91,10 @@ em {
 
 .text {
   text-align: justify;
+  padding: 0 0 3em 0;
 }
 
-#foot {
+.foot {
   text-align: right;
 }
 
@@ -142,6 +143,11 @@ small {
 
 .author {
     font-weight: bold;
+}
+
+.tags {
+    margin: 0 4em 0 4em;
+    padding: 0 0 1em 0;
 }
 
 @media screen and (max-width: 768px) {
