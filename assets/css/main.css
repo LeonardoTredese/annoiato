@@ -13,7 +13,7 @@ body {
   color: #242424;
 }
 
-#nav {
+nav {
   margin: 0 4em 0 4em;
   padding: 0 0 0 0;
   border-style: none none solid none;
@@ -62,7 +62,7 @@ em {
   padding: 2em 8em 4em 8em;
 }
 
-#article {
+article {
   padding: 0 0 5em 0;
   display: block;
 }
@@ -88,11 +88,11 @@ em {
   text-align: justify;
 }
 
-#foot {
+.foot {
   text-align: right;
 }
 
-#footer {
+#pageFooter {
   margin: 0 0 0 0;
   padding: 2em 2em 8em 2em;
   background-color:	#f3f3f3;
@@ -140,9 +140,7 @@ small {
 }
 
 @media screen and (max-width: 768px) {
-    #header {
-
-    }
+    
     #content {
       margin: 0 0 0 0;
       padding: 2em 2em 4em 2em;
