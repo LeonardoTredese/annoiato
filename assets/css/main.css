@@ -94,12 +94,12 @@ em {
 
 #footer {
   margin: 0 0 0 0;
-  padding: 2em 2em 3em 2em;
+  padding: 2em 2em 8em 2em;
   background-color:	#f3f3f3;
 }
 
 .wrapper {
-  display: inline-flex;
+  display: -webkit-inline-flex;
   padding: 0 0 0 0;
 }
 
