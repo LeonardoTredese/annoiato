@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
+<!DOCTYPE html>
+<html lang="it">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
@@ -14,56 +14,61 @@
         <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
     </head>
     <body>
-        <div id="header">
-            <!--<img src="logo.png" alt="Inserire logo"/>-->
+        <header>
             <!-- TODO: creare logo del sito e inserire descrizione in alt-->
             <h1>Annoiato</h1>
-        </div>
-        <div id="nav">
+        </header>
+        <nav aria-label="Navigation bar">
             <ul>
-                <li id="current">Home</li>
-                <li><a href="story.html">Storie</a></li>
-                <li><a href="ricette.html">Ricette</a></li>
-                <li><a href="about.html">About</a></li>
+                <li>Home</li>
+                <li><a href="story.html">Storie annoiate</a></li>
+                <li><a href="ricette.html">Ricette annoiate</a></li>
+                <li><a href="about.html" xml:lang="en" lang="en">About</a></li>
             </ul>
-        </div>
-        <div id="content">
-            <div class="article">
-                <h2 class="heading">Storia</h2>
+        </nav>
+        <section id="content">
+            <article>
+                <header>
+                    <h2 class="heading">Storia</h2>
+                </header>
                 <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper quis tortor nec facilisis. Sed sodales at diam vel ultrices. Ut non efficitur sapien. Etiam consectetur, sapien eu egestas auctor, velit purus scelerisque ante, non hendrerit enim turpis ac tortor. Duis ornare suscipit massa, in mollis eros bibendum ut. Nullam fermentum eros ex, ut dapibus erat blandit in. Donec in dolor blandit, mattis ligula finibus, elementum dui. Integer eu ipsum id diam cursus sollicitudin sit amet sed nibh. Aliquam ultrices lacinia libero, vel scelerisque enim facilisis sed. Vivamus lobortis facilisis neque in interdum. Vivamus accumsan imperdiet odio, id vulputate justo vestibulum aliquam. Quisque nec cursus massa. Suspendisse efficitur commodo tellus ac vestibulum. Fusce nec risus at orci maximus pulvinar vel at ex. Nunc non nisi euismod nisl facilisis sollicitudin vitae sed velit. Nulla sed dapibus lorem.</p>
-                <div class="foot">
+                <footer class="foot">
                     <a href="#">Continua a leggere...</a>
-                </div>
-            </div>
-            <div class="article">
-                <h2 class="heading">Storia</h2>
+                </footer>
+            </article>
+            <article>
+                <header>
+                    <h2 class="heading">Storia</h2>
+                </header>
                 <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper quis tortor nec facilisis. Sed sodales at diam vel ultrices. Ut non efficitur sapien. Etiam consectetur, sapien eu egestas auctor, velit purus scelerisque ante, non hendrerit enim turpis ac tortor. Duis ornare suscipit massa, in mollis eros bibendum ut. Nullam fermentum eros ex, ut dapibus erat blandit in. Donec in dolor blandit, mattis ligula finibus, elementum dui. Integer eu ipsum id diam cursus sollicitudin sit amet sed nibh. Aliquam ultrices lacinia libero, vel scelerisque enim facilisis sed. Vivamus lobortis facilisis neque in interdum. Vivamus accumsan imperdiet odio, id vulputate justo vestibulum aliquam. Quisque nec cursus massa. Suspendisse efficitur commodo tellus ac vestibulum. Fusce nec risus at orci maximus pulvinar vel at ex. Nunc non nisi euismod nisl facilisis sollicitudin vitae sed velit. Nulla sed dapibus lorem.</p>
-                <div class="foot">
+                <footer class="foot">
                     <a href="#">Continua a leggere...</a>
-                </div>
-            </div>
-            <div class="article">
-                <h2 class="heading">Storia</h2>
+                </footer>
+            </article>
+            <article>
+                <header>
+                    <h2 class="heading">Storia</h2>
+                </header>
                 <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper quis tortor nec facilisis. Sed sodales at diam vel ultrices. Ut non efficitur sapien. Etiam consectetur, sapien eu egestas auctor, velit purus scelerisque ante, non hendrerit enim turpis ac tortor. Duis ornare suscipit massa, in mollis eros bibendum ut. Nullam fermentum eros ex, ut dapibus erat blandit in. Donec in dolor blandit, mattis ligula finibus, elementum dui. Integer eu ipsum id diam cursus sollicitudin sit amet sed nibh. Aliquam ultrices lacinia libero, vel scelerisque enim facilisis sed. Vivamus lobortis facilisis neque in interdum. Vivamus accumsan imperdiet odio, id vulputate justo vestibulum aliquam. Quisque nec cursus massa. Suspendisse efficitur commodo tellus ac vestibulum. Fusce nec risus at orci maximus pulvinar vel at ex. Nunc non nisi euismod nisl facilisis sollicitudin vitae sed velit. Nulla sed dapibus lorem.</p>
-                <div class="foot">
+                <footer class="foot">
                     <a href="#">Continua a leggere...</a>
-                </div>
-            </div>
-        </div>
-        <div id="footer">
+                </footer>
+            </article>
+        </section>
+        <footer id="pageFooter">
             <div class="wrapper">
-                <div class="innerLeft">
+                <aside class="innerLeft" aria-label="Descrizione sito">
                     <h2>Annoiato è:</h2>
                     <p>Phasellus luctus tristique neque, a pulvinar enim blandit eu. Duis aliquam massa ut facilisis cursus. Aenean dignissim, ante et posuere maximus, ex leo facilisis magna, nec rutrum odio mi sit amet lacus. Donec imperdiet nunc in posuere varius. Vivamus venenatis cursus ex, id pellentesque elit. In ut justo mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis at ullamcorper felis.</p>
-                </div>
-                <div class="innerRight">
+                </aside>
+                <aside class="innerRight" aria-label="Breve descrizione autori">
                     <h2>Gli annoiati sono:</h2>
                     <p>Nunc tempor nisl ut sodales cursus. Fusce sed felis at est lobortis fringilla. Phasellus consectetur nisi ornare malesuada facilisis. Sed malesuada augue luctus, sodales leo condimentum, rhoncus felis. Quisque fringilla neque nulla, rutrum vulputate quam feugiat vel. Proin sed libero nec nisl suscipit lacinia. Vestibulum lobortis imperdiet sapien pharetra mattis.</p>
-                </div>
+                </aside>
             </div>
             <small>
                 Placeholder per qualcosa di importante...
             </small>
-        </div>
+        </footer>
     </body>
 </html>
