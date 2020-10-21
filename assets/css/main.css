@@ -228,6 +228,16 @@ article > footer {
 	margin: auto;
 }
 
+.recipeImageCropper {
+	width: 250px;
+	height: 200px;
+	object-fit: cover;
+	position: relative;
+	overflow: hidden;
+	border-radius: 5px;
+	margin: auto;
+}
+
 img {
 	display: inline;
 	margin: 0 auto;
