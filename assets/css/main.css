@@ -219,6 +219,10 @@ article > footer {
 	background-color: #fcfcfc;
 }
 
+.inner nav {
+	margin: 0;
+}
+
 .cropper {
 	width: 100px;
 	height: 100px;
@@ -232,7 +236,6 @@ article > footer {
 	width: 250px;
 	height: 200px;
 	object-fit: cover;
-	position: relative;
 	overflow: hidden;
 	border-radius: 5px;
 	margin: auto;
@@ -254,6 +257,10 @@ img {
 		border-bottom-width: thin;
 		border-color: #242424;
 
+	}
+
+	p {
+		font-size: 0.8em;
 	}
 
 	#content nav {
@@ -282,6 +289,7 @@ img {
 		padding: 0 0 0 0;
 	}
 	.inner {
+		margin: auto;
 		display: block;
 	}
 }
