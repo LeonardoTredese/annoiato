@@ -70,7 +70,7 @@ em {
 }
 
 article {
-	padding: 0 0 5em 0;
+	padding: 0 0 3em 0;
 	display: block;
 }
 
@@ -104,8 +104,9 @@ article > footer {
 	padding: 0;
 }
 
-.text {
+article > p, section > p {
 	text-align: justify;
+	line-height: 1.5em;
 	padding: 0 0 2em 0;
 }
 
@@ -187,6 +188,12 @@ img {
 		padding: 2em 0 6em 0;
 	}
 
+	article > p, section > p {
+		text-align: left;
+		line-height: 1.5em;
+		padding: 0 0 2em 0;
+	}
+	
 	#bio {
 		display: block;
 	}
