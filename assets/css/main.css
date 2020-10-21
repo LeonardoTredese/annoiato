@@ -238,8 +238,16 @@ img {
 @media screen and (max-width: 768px) {
 
 	#content {
-		margin: 0 0 0 0;
-		padding: 2em 2em 4em 2em;
+		margin: 0 2em 4em 2em;
+		padding: 2em 0em 0em 0em;
+		border-style: none none solid none;
+		border-bottom-width: thin;
+		border-color: #242424;
+
+	}
+
+	#content nav {
+		margin:0;
 	}
 
 	header h1{
