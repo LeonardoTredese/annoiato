@@ -41,13 +41,12 @@ header h1 {
 ul {
 	list-style-type: none;
 	font-weight: bold;
-	padding: 0;
 }
 
 ul > li {
 	display: -webkit-inline-flex;
 	color: #484848;
-	padding: 0.5em;
+	padding: 0.2em;
 	margin: 0 0 0.2em 0;
 }
 
@@ -104,6 +103,7 @@ article > a {
 article h3 {
 	color: #6c6c6c;
 	font-size: 1.5em;
+	text-align: left;
 }
 
 article > footer {
@@ -217,10 +217,6 @@ article nav {
 article > footer {
 	text-align: right;
 	background-color: #fcfcfc;
-}
-
-.inner nav {
-	margin: 0;
 }
 
 .cropper {
