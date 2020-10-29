@@ -50,6 +50,10 @@ ul > li {
 	margin: 0 0 0.2em 0;
 }
 
+#content li {
+	max-width: 70%;
+}
+
 a, a:visited {
 	padding: 0.5em;
 	color: #484848;
@@ -128,6 +132,10 @@ article > p, section > p {
 	margin-top: auto;
 	margin-bottom: auto;
 	padding: 0 0 2em 0;
+}
+
+#content p {
+	font-weight: normal;
 }
 
 #bio h2 {
@@ -244,6 +252,10 @@ img {
 	width: auto;
 }
 
+.tale {
+	text-align: left;
+}
+
 @media screen and (max-width: 768px) {
 
 	#content {
@@ -255,6 +267,9 @@ img {
 
 	}
 
+	#content li {
+		max-width: 100%;
+	}
 	p {
 		font-size: 0.8em;
 	}
