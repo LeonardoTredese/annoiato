@@ -50,9 +50,14 @@ ul > li {
 	margin: 0 0 0.2em 0;
 }
 
-a, a:visited {
+a {
 	padding: 0.5em;
 	color: #484848;
+}
+
+a:visited {
+	padding: 0.5em;
+	color: purple;
 }
 
 a:hover, a:active{
@@ -243,6 +248,29 @@ img {
 	height: 100%;
 	width: auto;
 }
+
+#content>form {
+	text-align: center;
+	border-bottom: 1px solid #9d9d9d;
+	margin-bottom: 2em;
+}
+
+.inputArea {
+	border-radius: 5px;
+	border: 1px solid #000;
+}
+
+.inputArea>i {
+	position: relative;
+	top: 0.3em;
+	left: 0.1em;
+}
+
+input[type=text] {
+	border: none;
+	padding: 1em;
+}
+
 
 @media screen and (max-width: 768px) {
 

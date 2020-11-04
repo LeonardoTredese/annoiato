@@ -12,6 +12,7 @@
         <meta name="author" content="Michele Veronesi"/>
         <title> Annoiato </title>
         <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+				<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     </head>
     <body>
         <header>
@@ -20,41 +21,34 @@
         </header>
         <nav aria-label="Navigation bar">
             <ul>
-                <li class="current">Home</li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="story.html">Storie</a></li>
                 <li><a href="recipies.html">Ricette</a></li>
-								<li><a href="search.html">Cerca</a></li>
+								<li>Cerca</li>
                 <li><a href="about.html" xml:lang="en" lang="en">About</a></li>
             </ul>
         </nav>
         <section id="content">
-            <article>
-                <header>
-                    <h2>Storia</h2>
-                </header>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper quis tortor nec facilisis.</p>
-                <footer>
-                    <a href="#">Continua a leggere...</a>
-                </footer>
-            </article>
-            <article>
-                <header>
-                    <h2>Storiella</h2>
-                </header>
-                <p>Sed sodales at diam vel ultrices. Ut non efficitur sapien. Etiam consectetur, sapien eu egestas auctor, velit purus scelerisque ante, non hendrerit enim turpis ac tortor.</p>
-                <footer>
-                    <a href="#">Continua a leggere...</a>
-                </footer>
-            </article>
-            <article>
-                <header>
-                    <h2>Storiaccia</h2>
-                </header>
-                <p>Nullam fermentum eros ex, ut dapibus erat blandit in. Donec in dolor blandit, mattis ligula finibus, elementum dui.</p>
-                <footer>
-                    <a href="#">Continua a leggere...</a>
-                </footer>
-            </article>
+					<form>
+						<div class="wrapper">
+							<div class="inner">
+								<div class="inputArea">
+									<i class="material-icons">search</i>
+									<input type="text" name="search" placeholder="Cerca..." />
+								</div>
+
+							</div>
+							<div class="inner">
+								<h2>Cerca Per:</h2>
+								<input type="checkbox" id="byStory" name="byStory" value="story">
+								<label for="byStory"> Storia</label><br>
+								<input type="checkbox" id="byRecipe" name="byRecipe" value="recipe">
+								<label for="byRecipe"> Ricette</label><br>
+								<input type="checkbox" id="byTag" name="byTag" value="tag">
+								<label for="vehicle3"> Tag</label><br>
+							</div>
+						</div>
+					</form>
         </section>
         <footer>
             <div class="wrapper">
